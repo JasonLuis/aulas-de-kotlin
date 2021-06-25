@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Qual o nome da série cujo o personagem se chama Geraldo de Rivia?"
+        android:textSize="24sp" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupOpcoes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/opcao1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vis a Vis"/>
+
+        <RadioButton
+            android:id="@+id/opcao2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="La casa do Pastel"/>
+
+        <RadioButton
+            android:id="@+id/opcao3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="God of War"/>
+
+        <RadioButton
+            android:id="@+id/opcao4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="The Witcher"/>
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/buttonProxima"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Proxima" />
+
+</LinearLayout>

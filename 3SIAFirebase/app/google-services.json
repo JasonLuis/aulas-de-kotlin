@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "83822810468",
+    "firebase_url": "https://sia-firebase.firebaseio.com",
+    "project_id": "sia-firebase",
+    "storage_bucket": "sia-firebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:83822810468:android:ad41aa95ec82b086355671",
+        "android_client_info": {
+          "package_name": "br.com.fiap.a3sia_firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "83822810468-jimdgk9a8ve7qnsue4d2efm15vo4f0gc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKnqKXE15rsHltZx2WAtW5ztgKmjU8S9o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "83822810468-jimdgk9a8ve7qnsue4d2efm15vo4f0gc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

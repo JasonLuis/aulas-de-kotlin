@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/nav_quiz"
+    app:startDestination="@id/fragmentPrincipal">
+
+    <fragment
+        android:id="@+id/fragmentPrincipal"
+        android:name="br.com.fiap.quiz.FragmentPrincipal"
+        android:label="FragmentPrincipal" >
+        <action
+            android:id="@+id/action_fragmentPrincipal_to_fragmentQuiz"
+            app:destination="@id/fragmentQuiz" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentQuiz"
+        android:name="br.com.fiap.quiz.FragmentQuiz"
+        android:label="FragmentQuiz" >
+        <action
+            android:id="@+id/action_fragmentQuiz_to_fragmentRespostaCorreta"
+            app:destination="@id/fragmentRespostaCorreta" />
+        <action
+            android:id="@+id/action_fragmentQuiz_to_fragmentRespostaErrada"
+            app:destination="@id/fragmentRespostaErrada" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentRespostaCorreta"
+        android:name="br.com.fiap.quiz.FragmentRespostaCorreta"
+        android:label="FragmentRespostaCorreta" />
+    <fragment
+        android:id="@+id/fragmentRespostaErrada"
+        android:name="br.com.fiap.quiz.FragmentRespostaErrada"
+        android:label="FragmentRespostaErrada" />
+</navigation>

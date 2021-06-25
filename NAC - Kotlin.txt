@@ -1,0 +1,14 @@
+TS
+1599834283
+
+Sua chave pública
+1611ea3bc24cff75db4b4ca0afb199c6
+
+Sua chave privada
+5613881bf16bbdb7abe028e55778f90b30139d39
+
+Hash
+47b873e6c4ef81632f94536e68797348
+
+url:
+http://gateway.marvel.com/v1/public/characters/1011334?ts=1599834283&apikey=1611ea3bc24cff75db4b4ca0afb199c6&hash=47b873e6c4ef81632f94536e68797348
